@@ -1,8 +1,8 @@
 /* Global Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: black;
-    color: white;
+    background-color: black; /* Background is black */
+    color: white; /* Text color is white */
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -28,7 +28,7 @@ body {
 }
 
 .btn {
-    background-color: red;
+    background-color: red; /* Button color is red */
     color: white;
     font-size: 18px;
     padding: 15px 30px;
@@ -39,7 +39,7 @@ body {
 }
 
 .btn:hover {
-    background-color: darkred;
+    background-color: darkred; /* Dark red on hover */
 }
 
 /* Responsive Design */
