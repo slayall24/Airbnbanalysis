@@ -5,11 +5,14 @@ body {
     color: white;
     margin: 0;
     padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     text-align: center;
-    padding-top: 50px;
 }
 
 .title {
@@ -20,7 +23,7 @@ body {
 /* Button Styles */
 .button-container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     gap: 20px;
 }
 
@@ -28,7 +31,7 @@ body {
     background-color: red;
     color: white;
     font-size: 18px;
-    padding: 12px 20px;
+    padding: 15px 30px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -40,14 +43,14 @@ body {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .button-container {
-        flex-direction: column;
-        gap: 15px;
+        flex-direction: row;
+        gap: 40px;
     }
 
     .btn {
-        width: 80%;
-        font-size: 16px;
+        width: auto;
+        font-size: 20px;
     }
 }
