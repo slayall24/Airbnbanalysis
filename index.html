@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Airbnb Data Visualizations</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      color: white;
+    }
+    h1 {
+      background-color: #8B0000;  /* Dark red color */
+      color: white;
+      padding: 20px;
+    }
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+    }
+    .container {
+      padding: 20px;
+    }
+    .visualization {
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Airbnb Data Visualizations</h1>
+
+  <div class="container">
+    <div class="visualization">
+      <h3>Price Distribution</h3>
+      <iframe src="price_distribution.html"></iframe>
+    </div>
+    
+    <div class="visualization">
+      <h3>Neighborhood Group Count</h3>
+      <iframe src="neighborhood_count.html"></iframe>
+    </div>
+    
+    <div class="visualization">
+      <h3>Price by Neighborhood</h3>
+      <iframe src="price_by_neighborhood.html"></iframe>
+    </div>
+  </div>
+
+</body>
+</html>
