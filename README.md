@@ -7,7 +7,7 @@ This project visualizes key insights from the **AB_NYC_2019.csv** dataset, which
 - **Price Distribution**: Displays the number of listings within different price ranges (e.g., $0-$100, $101-$200, etc.).
 - **Neighborhood Group Count**: Shows the number of listings in each NYC neighborhood group.
 - **Price by Neighborhood**: Visualizes the average price of listings in different neighborhoods.
-- **Dark Theme Design**: The website has a **black background** with **dark red visualizations**.
+
 
 ## Installation
 To run this project locally, follow these steps:
